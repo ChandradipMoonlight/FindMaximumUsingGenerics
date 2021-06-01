@@ -1,0 +1,2 @@
+com/maxtest/MaxNumTest.java
+ com.maxtest.MaxNumTest
