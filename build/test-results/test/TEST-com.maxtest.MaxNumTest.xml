@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.maxtest.MaxNumTest" tests="9" skipped="0" failures="6" errors="0" timestamp="2021-06-01T19:08:32" hostname="MOONLIGHT" time="0.068">
+<testsuite name="com.maxtest.MaxNumTest" tests="9" skipped="0" failures="6" errors="0" timestamp="2021-06-11T01:36:30" hostname="MOONLIGHT" time="0.074">
   <properties/>
-  <testcase name="givenMaxStringAtFirstPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.036">
+  <testcase name="givenMaxStringAtFirstPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.054">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Apple&gt; but was: &lt;Peach&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Apple&gt; but was: &lt;Peach&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
-	at com.maxtest.MaxNumTest.givenMaxStringAtFirstPosition_ShouldReturnSameNum(MaxNumTest.java:47)
+	at com.maxtest.MaxNumTest.givenMaxStringAtFirstPosition_ShouldReturnSameNum(MaxNumTest.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -101,7 +101,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="givenMaxStringAtSecondPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.002"/>
+  <testcase name="givenMaxStringAtSecondPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.001"/>
   <testcase name="givenMaxIntegerNumAtFirstPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.002">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;4&gt; but was: &lt;5&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;4&gt; but was: &lt;5&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -109,7 +109,7 @@
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
-	at com.maxtest.MaxNumTest.givenMaxIntegerNumAtFirstPosition_ShouldReturnSameNum(MaxNumTest.java:13)
+	at com.maxtest.MaxNumTest.givenMaxIntegerNumAtFirstPosition_ShouldReturnSameNum(MaxNumTest.java:12)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -209,7 +209,7 @@
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
-	at com.maxtest.MaxNumTest.givenMaxStringAtThirdPosition_ShouldReturnSameNum(MaxNumTest.java:57)
+	at com.maxtest.MaxNumTest.givenMaxStringAtThirdPosition_ShouldReturnSameNum(MaxNumTest.java:56)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -309,7 +309,7 @@
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
-	at com.maxtest.MaxNumTest.givenMaxIntegerNumAtThirdPosition_ShouldReturnSameNum(MaxNumTest.java:23)
+	at com.maxtest.MaxNumTest.givenMaxIntegerNumAtThirdPosition_ShouldReturnSameNum(MaxNumTest.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -402,14 +402,14 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="givenMaxFloatNumAtFirstPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.014">
+  <testcase name="givenMaxFloatNumAtFirstPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.002">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;10.5&gt; but was: &lt;13.01&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;10.5&gt; but was: &lt;13.01&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:723)
-	at com.maxtest.MaxNumTest.givenMaxFloatNumAtFirstPosition_ShouldReturnSameNum(MaxNumTest.java:30)
+	at com.maxtest.MaxNumTest.givenMaxFloatNumAtFirstPosition_ShouldReturnSameNum(MaxNumTest.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -504,14 +504,14 @@
   </testcase>
   <testcase name="givenMaxFloatNumAtThirdPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.001"/>
   <testcase name="givenMaxIntegerNumAtSecondPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.001"/>
-  <testcase name="givenMaxFloatNumAtSecondPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.002">
+  <testcase name="givenMaxFloatNumAtSecondPosition_ShouldReturnSameNum()" classname="com.maxtest.MaxNumTest" time="0.001">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;12.6&gt; but was: &lt;13.01&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;12.6&gt; but was: &lt;13.01&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:723)
-	at com.maxtest.MaxNumTest.givenMaxFloatNumAtSecondPosition_ShouldReturnSameNum(MaxNumTest.java:35)
+	at com.maxtest.MaxNumTest.givenMaxFloatNumAtSecondPosition_ShouldReturnSameNum(MaxNumTest.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
